@@ -1,0 +1,7 @@
+let firstName = prompt("What is your first name?")
+let lastName = prompt(firstName + " what is your last name?")
+let age = prompt("Lastly, " + firstName + " how old are you?")
+alert("Good day, Mr " + firstName + " " + lastName + " welcome to the site.")
+alert("so you are " + age + " years old. WOW " + age + " is old")
+console.log("Good day, Mr " + firstName + " " + lastName + " welcome to the site.")
+console.log("so you are " + age + " years old. WOW " + age + " is old")

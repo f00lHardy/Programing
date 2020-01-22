@@ -1,0 +1,9 @@
+The <form> tag
+<form action=/"my-form-submitting-page" method="post">
+    <!-- All our inputs will go in here -->
+</form>
+
+action-the url to send form data to
+method - the type of HTTP request
+
+Until we cover Back End JS, our forms wont actually do anything.

@@ -1,0 +1,5 @@
+Objectives
+Use the <form></form>tag
+Use the <input>tag
+Use the<label></label>tag
+Write Simple Validations

@@ -1,0 +1,17 @@
+h1 {
+    color: rgba(0, 200, 100, 0.8);
+    /* border-color: purple;
+    border-width: 5px;
+    border-style: solid; */
+    border: 5px solid black;
+}
+
+h4 {
+    background: rgb(255, 100, 80);
+}
+
+body {
+    background: pink;
+    /* background: url(image/Tapete-Versace-Home-Holzmaserung-cremegrau-Glanz-370521-199943__23093.1560950464.jpg);
+    background-size: cover; */
+}

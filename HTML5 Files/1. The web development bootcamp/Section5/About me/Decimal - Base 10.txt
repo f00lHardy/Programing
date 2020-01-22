@@ -1,0 +1,25 @@
+DECIMAL - Base 10
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+
+Bigest
+999
+Lowest
+001
+
+-       -       -
+
+
+Binary - Base 2
+0,1
+
+-       -       -
+
+
+Hexadecimal - Base 16
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F
+
+#_ _ _ _ _ _
+
+1st two red -  _ _ 2nd two green -  _ _ 3rd two blue -  _ _
+
+-       -       -
