@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Primitive Types</title>
+    
+    <style>
+    body {
+        background-color: aliceblue;
+    }
+
+    .space p {
+        padding: 0, 0;
+        margin: 4px;
+        font-size: 1em;
+        font-weight: bold;
+    }
+    </style>
+</head>
+<body>
+    <h1>Primitive Types</h1>
+    <ul>
+        <h2>Numbers</h2>
+        <h4>Numbers are normal numbers that you use in mathamatics.</h4>
+            <ul>
+                <li>JavaScript has ONE Number type!</li>
+                <li>Positive numbers!</li>
+                <li>Negative umbers!</li>
+                <li>Whole number (inergers)!</li>
+                <li>Decimal numbers!</li>
+            </ul>
+            <h4>Simple Operations</h4>
+            <p>Wer have all the basic math opartionsyou would expect...</p>
+            
+
+            <ul class="space">
+                <p>Addition</p>
+                <li>50 + 5 = 55</li>
+                <p>Subtraction</p>
+                <li>90 - 1 = 89</li>
+                <p>Multiplication</p>
+                <li>11111 * 7 = 77777</li>
+                <p>Divsion</p>
+                <li>400 / 25 = 16</li>
+                <p>Modulo</p>
+                <li> 27 % 2 = 1</li>
+            </ul>
+        </li>
+        <hr>
+        <h2>NaN (Not a number)</h2>
+            <p>NaN is a numeric value that represents somthing that is not....a number</p>
+            <ul>
+                <li>0 / 0 = NaN</li>
+                <li>1 + NaN = NaN</li>
+            </ul>
+        <hr>
+            <h2>Infinity</h2>
+            <ul>
+                <li> 1 / 0 = Infinity</li>
+                <li>-1 / 0 = -Infinity</li>
+            </ul>
+        <hr>
+        <h2>Strings</h2>
+            <h4>In JavaScript, Strings are pieces of text, or strings of characters. - We wrap them in quotes</h4>
+            <ul>
+                <li>(let firstName = "Ziggy";) - Double quotes work.</li>
+                <li>(let msg = "Please do not feed the chimps!";)</li>
+                <li>(let animal = 'Dumbo Octopus';) - So do single quotes</li>
+                <li>(let bad = "this is wrong") - THIS DOES NOT WORK</li>
+                <p>Whether you use single or double quotes, just make sure you are consistent.</p>
+            </ul>
+            <h4>You can also use quotes inside of quotes</h4>
+            <ul>
+                <li>'He said, "hahaha!"'</li>
+                <p>or</p>
+                <li>"He is the best and she's his insperation"</li>
+            </ul>
+
+        <h4>Strings are Indexed</h4>
+            <p>Each character has a corresponding index (a positional number)</p>
+            <p>"Hello".length - gives you 5.</p>
+        <h4>String Methods</h4>
+            <p>String come with a set of built-in methods,</p>
+            <p>which are actions that can be performed on or</p>
+            <p>with that particular string.</p>
+        <h4>We can do things like...</h4>
+            <ul>
+                <li>Searching within like...</li>
+                <li>Replacing parts of a string</li>
+                <li>Changing case (upper/lowercase)</li>
+                <p>let msg = "you are so grounded mr"</p>
+            </ul>
+
+        <h4>toUpperCase</h4>
+        <ul>
+            <li>msg.toUpperCase()</li>
+            <li>"YOU ARE SO GROUNDED MR"</li>
+        </ul>
+        <h4>IndexOf</h4>
+        <p>Does just what you think it would - gives you the index of the string</p>
+        <ul>
+            <P>letShow.indexOf("catdog");</P>
+            <li>tvShow.indexOf("cat") = //0</li>
+            <li>tvShow.indexOf("dog") = //3</li>
+            <li>tvShow.indexOf("z") = // -1 (not found)</li>
+        </ul>
+        
+        <h4>String Escape caracters</h4>
+        <p>add's escape caracters to the string</p>
+        <ul>
+            <h4>String Escapes</h4>
+
+            <li>\n - new line
+                <ul>
+                    <li>"My dog likes to jump (\n) line."</li>
+                </ul>
+            </li>
+            <li>\' - single quote
+                <ul>
+                    <li>"that was funny \'lol\'!"</li>
+                </ul>
+            </li>
+            <li>\" - double quote
+                <ul>
+                    <li>"What is the \"end\" of this sentence."</li>
+                </ul>
+            </li>
+            <li>\\ - backslash
+                <ul>
+                    <li>"if you want to have a \\ in the sentence"</li>
+                </ul>
+            </li>
+
+            <h4>String Template Literals</h4>
+            <p>Template Literals are strings that allow embedded expressions, which will be evaluated and then turned into a resulting string.</p>
+            <li>`I counted ${3 + 4} sheep`; = // "I counted 7 sheep"</li>
+            <p>We use back-ticks not single quotes (`) just ubove the Tab key</p>
+            <li>"welcome back, " + userName + "!"</li>
+            <p>"welcome back, Ziggy31!"</p>
+            <li>`Welcome back,${userName}!`</li> 
+            <p>"Welcome back,Ziggy31!"</p>
+            <h4>How to use templates.</h4>
+                <li>let item = "cucumbers"; </li>
+                <li>let price = 1.99;</li>
+                <li>let quantity = 4;</li>
+                
+                <p>`You bought ${quantity} ${item}, total price: $${price*quantity}`;</p>
+                <p>"You bought 4 cucumbers, total price: $7.96"</p>
+
+        </ul>
+        <hr>
+        <h2>Boolean</h2>
+            <p>Boolean's are simple yes or no outputs.</p>
+            <ul>
+                <li>Sample code - (let isLoggedIn = true;)</li>
+                <li>Sample code - (let gameOver = false;)</li>
+                <li>Sample code - (const isWaterWet = true;)</li>
+            </ul>
+
+        <hr>
+
+        <h2>Null</h2>
+        <li>Intentional absence of any value.</li>
+        <li>Must be assigned.</li>
+        <p>"let loggedInUser = null;"</p>
+
+        <hr>
+        
+        <h2>Undefined</h2>
+        <li>Variables that do not have an assigned value are undefined.</li>
+
+        <hr>
+
+        <h2>Math Object</h2>
+            <p>Contains properties and methods for mathematical constrants and functions.</p>
+            <ul>
+                <li>Math.PI</li>
+                <li>Math.round(4.5) = 5</li>
+                <li>Math.abs(-456) = 456</li>
+                <li>Math.pow(2,5) = 32</li>
+                <li>Math.floor</li>
+            </ul>
+        <h4>Math.random();</h4>
+        <p>Math.random() gives you a random decimal between 0 and 1 (non-inclusive)</p>
+
+        <h4>Random integers</h4>
+        <ul>
+            <li>const step1 = Math.random(); = //0.56256245</li>
+            <li>const step2 = step1 * 10; = //5.6256245</li>
+            <li>const step3 = Math.floor(step2); = //5</li>
+            <li>const step4 = step3 + 1;</li>
+        </ul>
+        <h3>Math.floor(Math.random() * 10) + 1;</h3>
+
+        <hr>
+
+        <h2>Type of Operator</h2>
+        <ul>
+            <li>typeof 'hello'; = //'string'</li>
+            <li>typeof 2; = //'number'</li>
+            <li>typeof true; = //'boolean'</li>
+        </ul>
+
+        <h2>parseInt & parseFloat Operator</h2>
+        <p>Use to parse strings into numbers, but watch out for NaN!</p>
+        <ul>
+            <li>parseInt('24') = //24</li>
+            <li>parseInt('24.987') = //24</li>
+            <li>parseInt('28dayslater') = //28</li>
+        </ul>
+        <p></p>
+        <ul>
+            <li>parseFloat('24.987') = //24.987</li>
+            <li>parseFloat('7') = //7</li>
+            <li>parseFloat('i ate 3 shramp') = //NaN</li>
+        </ul>
+
+        <hr>
+        <h2>Side note</h2>
+        <li>To find out what type of primitives it is, you can use the (typeof) variable
+            <ul>
+                <li>typeof "87" = "string"</li>
+                <li>typeof 87 = "number"</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
